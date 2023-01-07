@@ -123,6 +123,7 @@ namespace
 - (void)applicationDidEnterBackground:(UIApplication *)application
 {
     // Called when the application is sent to background (home button pressed)
+    // TODO (JOELLE): Add code to auto-save here (if it doesn't already)
 }
 
 
@@ -147,6 +148,7 @@ namespace
 - (void)applicationWillEnterForeground:(UIApplication *)application
 {
     // Called when the application is sent to foreground (app icon pressed)
+    // TODO (JOELLE): Load the state created on last app exit if app crashes on resume
 }
 
 
